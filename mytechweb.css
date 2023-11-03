@@ -1,18 +1,105 @@
-.navbar{
-    border-bottom: #2980B9 solid 5px ;
+/* Reset some default styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-#authors img{
-    margin-top: -70px;
-    width: 100px;
-    height: 100px;
+/* Global styles */
+body {
+    background: #f2f2f2; /* Background color */
+    color: #333; /* Text color */
 }
 
-#services .card:hover{
-background:#2d3436;
-color:#ffff;
+/* Navbar */
+.navbar {
+    background: #1a1a1a; /* Navbar background color */
+    border-bottom: 4px solid #2a2a2a; /* Navbar border color */
+    padding: 15px 0;
 }
-body
-{
-    background: linear-gradient(to right bottom,#eef4f4,#dee0e8,#9d9ea1);
+
+.navbar-brand {
+    color: #fff; /* Navbar brand text color */
+    font-size: 24px;
+}
+
+.navbar-form .form-control {
+    background: #2a2a2a; /* Search input background color */
+    border: none;
+    color: #fff; /* Search input text color */
+}
+
+/* Carousel */
+.carousel {
+    background: #f5f5f5; /* Carousel background color */
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.7); /* Caption background color with transparency */
+    color: #fff;
+    padding: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #333; /* Carousel control arrow color */
+    color: #fff;
+}
+
+/* Sections */
+.container {
+    background: #fff; /* Section background color */
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Section box shadow */
+}
+
+/* Cards */
+.card {
+    background: #fff; /* Card background color */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Card box shadow */
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02); /* Card zoom effect on hover */
+}
+
+/* Text colors */
+.text-dark {
+    color: #333;
+}
+
+/* Buttons */
+.btn {
+    background: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #0056b3; /* Button background color on hover */
+}
+
+/* Footer */
+footer {
+    background: #1a1a1a; /* Footer background color */
+    color: #fff; /* Footer text color */
+    padding: 10px 0;
+}
+
+/* Links */
+a {
+    color: #007BFF; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3; /* Link color on hover */
 }
